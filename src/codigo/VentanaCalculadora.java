@@ -72,6 +72,11 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 boton07MousePressed(evt);
             }
         });
+        boton07.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton07ActionPerformed(evt);
+            }
+        });
 
         boton08.setBackground(new java.awt.Color(0, 0, 0));
         boton08.setFont(new java.awt.Font("Tahoma", 0, 44)); // NOI18N
@@ -349,6 +354,10 @@ public class VentanaCalculadora extends javax.swing.JFrame {
     private void botondividirMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botondividirMousePressed
         numeroPulsado("/");
     }//GEN-LAST:event_botondividirMousePressed
+
+    private void boton07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton07ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_boton07ActionPerformed
 
     /**
      * @param args the command line arguments
